@@ -1,9 +1,4 @@
 /*
-NAME : Azif Nizam
-BATCH : 25021A
-REG NO : 25021A_008 
-DATE : 15-12-2025
-
 PROJECT NAME : INVERTED SEARCH
 DESCRIPTION : An inverted search engine implemented in C that indexes and retrieves words from multiple text files
               using a hash-table–based data structure. Builds an in-memory inverted index by parsing input files 
@@ -37,13 +32,18 @@ int main(int argc, char *argv[])
 
     while (1)
     {
-        printf("\n-----FILE MANAGER-----");
-        printf("\n1. Create Database");
-        printf("\n2. Search Database");
-        printf("\n3. Display Database");
-        printf("\n4. Update Database");
-        printf("\n5. Save Database");
-        printf("\n6. Exit");
+        printf("\n");
+        printf("╭─────────────────────────────╮\n");
+        printf("│        FILE MANAGER         │\n");
+        printf("╞═════════════════════════════╡\n");
+        printf("│                             │\n");
+        printf("│  [1] Create Database        │\n");
+        printf("│  [2] Search Database        │\n");
+        printf("│  [3] Display Database       │\n");
+        printf("│  [4] Load Database          │\n");
+        printf("│  [5] Save Database          │\n");
+        printf("│  [6] Exit                   │\n");
+        printf("╰─────────────────────────────╯\n");
         printf("\n>> Enter your choice: ");
 
         scanf("%d", &option);
